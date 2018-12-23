@@ -2,7 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 
-client.on('ready', () => {
+client.on('ready', () => 
+          if(message.content ==='-ready')
    console.log(`----------------`);
    console.log(`Credit Farmm - Script By : Kahrbaa `);
    console.log(`----------------`);
